@@ -1,7 +1,7 @@
 import pickle
 import random
 
-BASE_DIR = "./data/"
+BASE_DIR = "../data/"
 
 
 tupleid = pickle.load(open(BASE_DIR + "tupleid", "rb"))

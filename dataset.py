@@ -5,6 +5,7 @@ import pickle
 
 class TrainDataset(Dataset):
     def __init__(self, config):
+
         self.X = []
         self.Y = []
         self.len = []

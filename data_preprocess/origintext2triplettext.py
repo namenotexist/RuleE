@@ -3,7 +3,7 @@ import pickle
 """
 process one line in file "origintext.txt"
 """
-BASE_DIR = "./data/"
+BASE_DIR = "../data/"
 def parse_one_line(line):
     line = line.strip().split('\t')
     pv_triples = defaultdict(list)

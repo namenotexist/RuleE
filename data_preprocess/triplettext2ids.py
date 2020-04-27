@@ -1,6 +1,6 @@
 import pickle
 from copy import deepcopy
-BASE_DIR = "./data/"
+BASE_DIR = "../data/"
 property2id = {}
 id2property = {}
 value2id = {}

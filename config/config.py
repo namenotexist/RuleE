@@ -46,9 +46,10 @@ class config:
         self.entity_embsize = 16
 
         # 数据文件所在的文件夹(用绝对路径确保没有问题)
-        self.datadir = "/home/kjj2/Same_Item_Detection/data/"
+        self.datadir = "./data/"
 
         # 训练文件名
+
         self.trainfile = "train"
 
         # 测试文件名
